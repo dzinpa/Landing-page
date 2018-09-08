@@ -1,0 +1,206 @@
+*{
+    font-family: arial;
+    color:#545871;
+   
+   
+}
+/****HEADER****/
+
+header{
+    background-image: url(../images/header.png);
+    height: 720px;
+}
+
+.logo{
+    margin-top: 76px;
+}
+
+.right-content{
+    height: 417px;
+    margin-top: 109px;
+}
+
+a:hover{
+    color: purple !important;
+}
+    
+.slogan{
+    line-height: 1.2;
+    height: 350px;
+    font-size: 44px;
+    font-weight: bold;
+    color:white;
+}
+
+.sign-up{
+    width: 165px;
+    color: #545871;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.sign-up:hover{
+    cursor: pointer;
+    color: purple;
+}
+
+.pets-name{
+    display: inline-block;
+    padding: 40px 0px 0px 10px;
+    color: white;
+}
+
+/****2.BLOCK****/
+
+.small-img{
+    font-size: 16px;
+    position: relative;
+}
+
+.small-pet-name{
+    position: absolute;
+    bottom: 12%;
+    left: 12%;
+    color: white;
+}
+
+.main-text > h2{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.main-text > h2 + p{
+   font-size: 20px;
+}
+
+.main-text > h2 + p + button{
+    color: white;
+    font-size: 20px;
+    background-color: #545871;
+    margin-bottom: 40px;
+    border: 1px solid #545871;
+}
+
+/****3.BLOCK****/
+
+.bg-pink{
+    background-color:#F7ECEB;
+}
+
+.bg-image{
+    height: 694px;
+    background-image: url(../images/bg.png); 
+    margin-left: -10%;
+}
+
+/****4.BLOCK****/
+
+.bg-purple{
+    background-color: #545871;
+    margin-top: -48px;
+}
+
+.pets-data{
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.pet-name{
+    font-weight: bold;
+    text-transform: none;
+    font-size: 16px;
+}
+
+.date{
+    font-size: 16px;
+}
+
+.bg-purple h2{
+    color: white;
+}
+
+.small-circle{
+    border: 1px solid #F7ECEB;
+    width: 32px;
+    height: 32px;
+    margin: 2px auto;
+    background-color: #F7ECEB;
+   
+}
+
+.age, 
+.weight{
+    font-size: 1.5rem;
+}
+
+.btn-rose{
+    width: 165px;
+    color: #545871;
+    background-color: #EBD0CE;
+    border-radius: 20px;
+    border: 1px solid #EBD0CE;
+    font-size: 24px;
+    margin-top: 30px; 
+    margin-bottom: 50px;
+    padding: 1px;
+}
+
+/****5.BLOCK****/
+
+.circle{
+    border: 1px solid #E6DBDA;
+    background-color: #F7ECEB;
+    width: 80px;
+    height: 80px;
+    margin: -45px auto;
+    margin-bottom: 7%;
+}
+
+.wave-img {
+    margin-left: -6px;
+}
+ 
+.price{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 0px 20px 0px;
+    background-color: #F0F1F7; 
+}
+
+.price > span:first-child{
+    font-size:25px;
+    font-weight: bold;
+}
+
+.btn-purple{
+    color:white;
+    background-color: #545871;
+    border: 1px solid #545871;
+    width: 165px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/****FOOTER****/
+
+.footer{
+    margin: 80px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.footer p:first-child{
+    color:silver;
+}
+
+.footer p:last-child{
+    text-decoration: underline;
+}
